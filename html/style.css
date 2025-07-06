@@ -1,25 +1,26 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-#main{
-    display:none;
-}
+/* Resets the margin and padding of all elements. */
+*{ margin: 0; padding: 0; }
+/* Hides the main display area initially. */
+#main{ display:none; }
 body{
+    /* Sets the top and right margins from the screen edges. */
     margin-top:10px;
     margin-right:10px;
+    /* Sets the opacity. 0.8 means slightly transparent. */
     opacity : 0.8;
+    /* Sets the text color to white. */
     color: white;
+    /* Sets the font family. */
     font-family:sans-serif;
+    /* Sets the font size to 18px. */
     font-size: 18px;
+    /* Aligns text to the right. */
     text-align: right;
+    /* Sets the font weight. 100 is very thin. */
     font-weight: 100;
-    text-shadow:
-        1px 1px 0 #000,
-        -1px 1px 0 #000,
-        -1px -1px 0 #000,
-        1px -1px 0 #000;
+    /* Adds a text shadow to improve readability. */
+    text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000;
 }
-#DayTime{
-    margin-right:26px;
-}
+/* Sets the right margin for elements with the ID DayTime. */
+/* If there is no element with this ID in index.html, this style will not be applied. */
+#DayTime{ margin-right:26px; }
